@@ -1,18 +1,12 @@
 # My-Test-Flutter-Submission
 
-Repository ini merupakan starter project submission kelas Flutter Expert Dicoding Indonesia.
-
 ![CI status](https://github.com/andika-andriana/My-Test-Flutter-Submission/actions/workflows/ci.yaml/badge.svg)
-
----
 
 # CI & Firebase Evidence
 
 - `screenshots/github-actions-success.png` — Hasil build sukses dari GitHub Actions (kriteria CI).
 - `screenshots/firebase-analytics-dashboard.png` — Ringkasan Analytics.
 - `screenshots/firebase-crashlytics-dashboard.png` — Ringkasan Crashlytics menujukan beberapa test crash.
-
----
 
 ## Continuous Integration
 
