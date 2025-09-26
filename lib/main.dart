@@ -39,8 +39,16 @@ import 'package:ditonton/injection.dart' as di;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
-  // Load environment variables
-  await dotenv.load(fileName: ".env");
+  // Load environment variables (optional - for local development)
+  try {
+    await dotenv.load(fileName: ".env");
+    debugPrint('Environment file loaded successfully');
+  } catch (e) {
+    // .env file not found - this is expected in CI/CD environments
+    debugPrint('Environment file not found, using default configuration');
+    // Initialize dotenv with empty values to prevent NotInitializedError
+    dotenv.testLoad(fileInput: '');
+  }
   
   await _configureFirebase();
   await di.init();
