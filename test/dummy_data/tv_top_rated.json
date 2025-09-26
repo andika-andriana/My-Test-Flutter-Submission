@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "backdrop_path": "/path3.jpg",
+      "first_air_date": "2008-01-20",
+      "genre_ids": [18, 80],
+      "id": 1396,
+      "name": "Breaking Bad",
+      "origin_country": ["US"],
+      "original_language": "en",
+      "original_name": "Breaking Bad",
+      "overview": "A chemistry teacher diagnosed with cancer turns to making meth to secure his family's future.",
+      "popularity": 400.55,
+      "poster_path": "/poster3.jpg",
+      "vote_average": 9.1,
+      "vote_count": 9000
+    }
+  ]
+}

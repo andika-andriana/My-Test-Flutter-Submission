@@ -1,0 +1,42 @@
+{
+  "backdrop_path": "/path1.jpg",
+  "genres": [
+    {"id": 10765, "name": "Sci-Fi & Fantasy"},
+    {"id": 18, "name": "Drama"}
+  ],
+  "id": 1399,
+  "name": "Game of Thrones",
+  "original_name": "Game of Thrones",
+  "overview": "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros.",
+  "poster_path": "/poster1.jpg",
+  "vote_average": 8.3,
+  "vote_count": 12000,
+  "first_air_date": "2011-04-17",
+  "last_air_date": "2019-05-19",
+  "number_of_seasons": 8,
+  "number_of_episodes": 73,
+  "episode_run_time": [60],
+  "seasons": [
+    {
+      "air_date": "2011-04-17",
+      "episode_count": 10,
+      "id": 3627,
+      "name": "Season 1",
+      "overview": "Winter is coming.",
+      "poster_path": "/season1.jpg",
+      "season_number": 1
+    },
+    {
+      "air_date": "2012-04-01",
+      "episode_count": 10,
+      "id": 3628,
+      "name": "Season 2",
+      "overview": "The cold winds return to Westeros.",
+      "poster_path": "/season2.jpg",
+      "season_number": 2
+    }
+  ],
+  "homepage": "https://www.hbo.com/game-of-thrones",
+  "in_production": false,
+  "tagline": "Winter Is Coming."
+}
