@@ -53,12 +53,3 @@ app.*.map.json
 
 # md files
 /md
-
-# Environment variables
-.env
-.env.local
-.env.production
-
-# Firebase configuration files (these contain sensitive data)
-android/app/google-services.json
-ios/Runner/GoogleService-Info.plist

@@ -5,7 +5,6 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:ditonton/features/movie/presentation/bloc/movie_detail_cubit.dart';
 import 'package:ditonton/features/movie/presentation/bloc/movie_search_cubit.dart';
 import 'package:ditonton/features/movie/presentation/bloc/now_playing_movies_cubit.dart';
@@ -39,28 +38,12 @@ import 'package:ditonton/injection.dart' as di;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
-  // Load environment variables (optional - for local development)
-  try {
-    await dotenv.load(fileName: ".env");
-    debugPrint('Environment file loaded successfully');
-  } catch (e) {
-    // .env file not found - this is expected in CI/CD environments
-    debugPrint('Environment file not found, using default configuration');
-    // Initialize dotenv with empty values to prevent NotInitializedError
-    dotenv.testLoad(fileInput: '');
-  }
-  
   await _configureFirebase();
   await di.init();
   runApp(const MyApp());
 }
 
 Future<void> _configureFirebase() async {
-  if (!DefaultFirebaseOptions.isConfigured) {
-    debugPrint('Firebase not configured. Skipping initialization.');
-    return;
-  }
-
   try {
     await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 

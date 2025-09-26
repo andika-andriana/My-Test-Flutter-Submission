@@ -37,7 +37,6 @@ dependencies:
   firebase_core: ^3.4.0
   firebase_analytics: ^11.6.0
   firebase_crashlytics: ^4.1.0
-  flutter_dotenv: ^5.1.0
   ditonton_core:
     path: packages/ditonton_core
   ditonton_movie:

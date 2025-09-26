@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "220713259329",
+    "project_id": "my-flutter-submission",
+    "storage_bucket": "my-flutter-submission.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220713259329:android:2db1c90af369bc4f3591c0",
+        "android_client_info": {
+          "package_name": "com.dicoding.ditonton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA-UE4BA3kaLpzPKJiD_REBXj3HCOuRJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
