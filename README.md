@@ -14,11 +14,11 @@ Pipeline GitHub Actions berada di `.github/workflows/ci.yaml`. Workflow ini menj
 
 ## SSL Pinning
 
-Klien HTTP kini menggunakan SSL Pinning. Tambahkan sertifikat TMDB ke folder `assets/certificates/` dengan nama `themoviedb.pem`, kemudian jalankan `flutter pub get`. Sertifikat dapat diekspor menggunakan perintah berikut.
+Klien HTTP kini menggunakan SSL Pinning. Tambahkan sertifikat TMDB ke folder `assets/certificates/` dengan nama `themoviedb.pem`, kemudian jalankan `flutter pub get`.
 
 ## Firebase Analytics & Crashlytics
 
-Proyek telah menyiapkan integrasi Firebase di `lib/main.dart`. Jalankan `flutterfire configure` dan ganti nilai placeholder pada `lib/firebase_options.dart` agar inisialisasi Firebase berhasil. Setelah itu, tambahkan `google-services.json` (Android) dan `GoogleService-Info.plist` (iOS/MacOS) pada platform masing-masing.
+Proyek telah menyiapkan integrasi Firebase di `lib/main.dart`. Jalankan `flutterfire configure` dan ganti nilai placeholder pada `lib/firebase_options.dart` agar inisialisasi Firebase berhasil.
 
 ## Modularization
 
